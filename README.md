@@ -13,7 +13,7 @@ Este repositório contém o código-fonte do App Notas desenvolvido com React e 
 
 ## Como rodar localmente
 ```bash
-git clone https://github.com/seuusuario/app-notas-dev
+git clone https://github.com/IsaqueSSNogueira/app-notas-dev
 cd app-notas-dev
 npm install
 npm run dev
