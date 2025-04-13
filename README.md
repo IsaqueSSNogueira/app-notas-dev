@@ -1,4 +1,4 @@
-# App Notas
+# Binder Notes
 
 Este repositório contém o código-fonte do App Notas desenvolvido com React e Vite.
 
