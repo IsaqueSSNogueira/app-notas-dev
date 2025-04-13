@@ -1,0 +1,70 @@
+
+
+@media only screen and (max-width:480px){
+
+    .categoriesMenuContainer {
+        position: absolute;
+        top:100%;
+        left:0;
+        width:100%;
+        height:auto;
+        background-color: #F9F9F9;
+        z-index: auto;
+        border-radius: 0 0 10px 10px;
+        overflow: hidden;
+        display: none;
+    }
+
+    .categoriesMenuContainer ul li {
+        padding: 10px 13px 10px 12px;
+        border-top:1px solid rgba(0,0,0,0.2);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .categoriesMenuContainer ul li:active {
+        background-color:rgba(0,0,0,0.04);
+    }
+
+    .categoriesMenuContainer ul li span {
+        font-size: 0.75rem !important;
+    }
+
+    /*add categories*/
+
+    .areaAddCategorie {
+        background-color: rgba(255, 191, 191, 0.5);
+        border:none !important;
+        padding: 8px 8px 8px 12px !important;
+    }
+
+    .buttonAddCategorie {
+        opacity: 0.8;
+    }
+
+    /* Classes for JS interactions */
+    .categoriesContainerMenuOpen {
+        display: block;
+    }
+
+
+    /*theme*/
+    .themeLight {
+        background-color: #F9F9F9;
+        color:black;
+    }
+
+    .themeDark {
+        background-color: rgb(88, 87, 87);
+        color:white;
+    }
+
+    .themeLight ul .areaAddCategorie {
+        background-color: rgba(255, 191, 191, 0.5);
+    }
+
+    .themeDark ul .areaAddCategorie {
+        background-color: rgba(255, 88, 102, 0.9);
+    }
+}

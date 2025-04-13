@@ -1,0 +1,64 @@
+
+
+
+@media only screen and (max-width:480px) {
+
+
+    .containerPreference {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        gap:15px;
+        padding:20px 0 80px;
+    }
+
+    .titlePreference {
+        font-weight: 400;
+        font-size:0.9rem;
+        align-self: center;
+    }
+
+    .list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .itemFont {
+        font-size: 0.9rem;
+        padding: 5px 15px;
+        transition: all 0.3s;
+    }
+
+    .itemFont:active {
+        background-color: rgba(0,0,0,0.05);
+    }
+
+    /*font-family*/
+    .font_family_Roboto {
+        font-family: 'Roboto', serif !important;
+    }
+
+    .font_family_Poppins {
+        font-family: 'Poppins', serif !important;
+    }
+
+    .font_family_Patrick_Hand {
+        font-family: "Patrick Hand", serif !important;
+    }
+
+    .font_family_Dancing_Script {
+        font-family: "Dancing Script", serif !important;
+    }
+
+    .font_family_Raleway {
+        font-family: "Raleway", serif !important;
+    }
+
+    .font_family_Grechen_Fuemen {
+        font-family: "Grechen Fuemen", serif !important;
+    }
+
+    .font_family_Jacquard_12 {
+        font-family: "Jacquard 12", serif !important;
+    }
+}

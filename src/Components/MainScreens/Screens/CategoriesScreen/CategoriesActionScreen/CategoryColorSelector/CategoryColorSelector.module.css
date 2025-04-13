@@ -1,0 +1,27 @@
+
+
+@media only screen and (max-width:480px){
+    
+    .categoryColorSelector {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .title {
+        font-size: 0.875rem;
+        font-weight: 500;
+        margin-top: 15px;
+    }
+
+    .colorsArea {
+        padding:25px 10px 30px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap:8px;
+    }
+
+
+}

@@ -1,0 +1,62 @@
+
+
+@media only screen and (max-width:480px){
+        
+    .categoriesAreaContainer {
+        position: absolute;
+        left:50%;
+        transform: translateX(-50%);
+        width: 120px;
+        height: 30px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 13px;
+        font-weight: 500;
+        z-index: 15;
+        transition: left 0.5s ease;
+    }
+
+    .iconCategoryContainer {
+        width: 25px;
+        height: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .categoriesAreaContainer span {
+        font-size: 0.8rem;
+        opacity: 0.8;
+    }
+
+    .arrowDown {
+        transition: transform 0.5s ease;
+    }
+
+    /* Classes for JS interactions */
+    .AreaContainerMenuOpen {
+        left:75%;
+        width:140px;
+        height: 35px;
+        border-radius:10px 10px 0 0;
+        opacity:1;
+    }
+
+    .arrowDownMenuOpen {
+        transform: rotate(180deg);
+    }
+
+
+    /*theme*/
+    .themeLight {
+        background-color: #F9F9F9;
+        color:black;
+    }
+
+    .themeDark {
+        background-color: rgb(68, 68, 68);
+        color:white;
+    }
+}

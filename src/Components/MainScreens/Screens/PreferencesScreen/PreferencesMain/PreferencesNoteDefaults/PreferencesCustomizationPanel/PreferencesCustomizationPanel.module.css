@@ -1,0 +1,42 @@
+
+
+@media only screen and (max-width:480px){ 
+
+    .shadowBackground {
+        position: absolute;
+        top:0;
+        left:0;
+        width:100vw;
+        height: 100vh;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 10;
+        background-color: rgba(0,0,0,0.5);
+    }
+
+    .defaultConfigContainer {
+        min-width: 60%;
+        max-width: 80%;
+        min-height: 20%;
+        background-color: white;
+        border-radius: 20px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+    }
+
+    /*themes*/
+    .themeLight {
+        background-color: white;
+        color:black;
+    }
+
+    .themeDark {
+        background-color: rgb(50, 50, 50);
+        color:rgb(233, 232, 232);
+    }
+    
+
+}

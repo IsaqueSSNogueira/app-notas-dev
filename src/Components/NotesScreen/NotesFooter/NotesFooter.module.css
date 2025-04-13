@@ -1,0 +1,74 @@
+
+@media only screen and (max-width:480px){ 
+
+    .footer {
+        position: relative;
+        height: 100px;
+        top:-1px;
+    }
+
+    .featureList {
+        width: 98vw;
+        min-height:50px;
+        position: fixed;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #FDFFF4;
+        border:1px solid white;
+        border-radius: 20px;
+        display: flex;
+        gap:15px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .featureList .li {
+        width:40px;
+        height: 40px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.2s ease;
+    }
+
+    .featureList .li:active {
+        background-color: rgba(0,0,0,0.1);
+    }
+
+    .referencePosition {
+        position: relative;
+    }
+
+    .menuColorOpen {
+        background-color: rgba(255,255,255, 0.2);
+    }
+
+
+    /*themes*/
+    .themeLight {
+        background-color: white;
+        color:black;
+    }
+
+    .themeLight .featureList {
+        background-color: white;
+        border: 1px solid rgba(62, 62, 62, 0.5);
+    }
+
+    .themeDark {
+        background-color: rgb(62, 62, 62);
+    }
+
+    .themeDark .featureList {
+        background-color: rgb(62, 62, 62);
+        border:1px solid rgb(41, 41, 41);
+        color:rgb(232,232,232);
+    }
+
+    
+    .themeDark .featureList .li:active {
+        background-color: rgba(255,255,255,0.1);
+    }
+}

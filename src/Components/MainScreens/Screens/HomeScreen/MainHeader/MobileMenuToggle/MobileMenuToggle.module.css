@@ -1,0 +1,64 @@
+
+
+@media only screen and (max-width:480px){
+
+    .menuBackdrop {
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top:0;
+        left:0;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 16;
+        transform: translateX(-100%);
+    }
+
+    .menuContainer {
+        position: fixed;
+        top:0;
+        left:0;
+        width:290px;
+        height: 100vh;
+        background-color: white;
+        z-index: 17;
+        transform: translateX(-100%); /*padrão pra transição*/
+        transition: transform 0.5s ease;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:30px;
+    }
+
+
+    /*interatividade*/
+
+    .isOpenFundo {
+        transform: translateX(0%);
+    }
+
+    .isOpenContainer {
+        transform: translateX(0%);
+    }
+
+
+    /*theme*/
+
+    .themeLightMenu {
+        background-color: white;
+        color:black;
+    } 
+    
+    .themeDarkMenu {
+        background-color: rgb(42, 42, 42);
+        color:white;
+    }
+
+    .themeLightBackDrop {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    
+    .themeDarkBackDrop {
+        background-color: rgba(0,0,0,0.2);
+    }
+
+}

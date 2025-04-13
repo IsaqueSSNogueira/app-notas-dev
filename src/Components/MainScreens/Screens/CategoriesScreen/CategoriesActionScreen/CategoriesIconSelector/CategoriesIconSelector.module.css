@@ -1,0 +1,26 @@
+
+
+@media only screen and (max-width:480px){
+
+    .categoriesIconSelector {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .title {
+        font-size: 0.875rem;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+
+    .iconsArea {
+        padding:25px 10px 10px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap:10px;
+    }
+
+}

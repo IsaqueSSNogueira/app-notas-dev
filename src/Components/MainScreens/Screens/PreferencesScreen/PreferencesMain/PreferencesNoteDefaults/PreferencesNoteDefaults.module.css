@@ -1,0 +1,173 @@
+
+
+@media only screen and (max-width:480px){ 
+
+    .containerListPreferences {
+        width: 100%;
+        height:500px;
+        padding:10px;
+    }
+
+    .title {
+        font-size:0.9rem;
+        color:#19B096;
+        font-weight: 400;
+        margin-bottom:30px;
+    }
+
+    .list {
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        gap:30px;
+    }
+
+    .item {
+        display: flex;
+        gap:15px;
+        align-items: center;
+        position: relative;
+    }
+
+    .item span, .item div {
+        font-size: 0.8rem;
+    }
+
+    .preferenceValue {
+        position: absolute;
+        right:0px;
+        min-width:80px;
+        text-align: center;
+    }
+
+    .textColor {
+        padding:4px 10px;
+        background-color: #f6f8fa;
+        border:1px solid gray;
+        border-radius: 5px;
+        color:red;
+        position: absolute;
+        right:10px;
+    }
+
+    .noteColor {
+        width:20px;
+        height: 20px;
+        border-radius: 5px;
+        border:1px solid rgba(0,0,0, 0.5);
+        position: absolute;
+        right:25px;
+    }
+
+
+    .itemReset {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(206, 245, 225);
+        padding:10px 5px;
+        border-radius: 5px;
+        font-size: 0.9rem;
+        gap:10px;
+    }
+
+    .itemReset:active {
+        background-color: rgb(193, 230, 211);
+    }
+
+    .themeDark .itemReset {
+        background-color: rgb(230, 165, 36);
+        color:white;
+    }
+
+    .themeDark .itemReset:active {
+        background-color: rgb(146, 174, 109);
+    }
+
+
+    .themeDark .textColor {
+        background-color: #333333;
+    }
+
+    /*text-color*/
+    .themeLight .text_color_default {
+        color:black;
+    }
+
+    .themeDark .text_color_default {
+        color:white;
+    }
+
+    .themeLight .text_color_red {
+        color:red;
+    }
+
+    .themeDark .text_color_red {
+        color:rgb(253, 92, 92);
+    }
+
+    .themeLight .text_color_orange {
+        color: #ff9800;
+    }
+    
+    .themeDark .text_color_orange {
+        color: #ffb74d;
+    }
+
+    .themeLight .text_color_yellow {
+        color: #fbc02d;
+    }
+    
+    .themeDark .text_color_yellow {
+        color: #ffeb3b;
+    }
+    
+
+    .themeLight .text_color_blue {
+        color: #0066cc;
+    }
+    
+    .themeDark .text_color_blue {
+        color: #4d94ff;
+    }
+    
+    .themeLight .text_color_green {
+        color: #388e3c;
+    }
+    
+    .themeDark .text_color_green {
+        color: #66bb6a;
+    }
+    
+    .themeLight .text_color_purple {
+        color: #7e57c2;
+    }
+    
+    .themeDark .text_color_purple {
+        color: #b39ddb;
+    }
+
+    .themeLight .text_color_brown {
+        color: #795548;
+    }
+    
+    .themeDark .text_color_brown {
+        color: #a1887f;
+    }
+    
+    .themeLight .text_color_pink {
+        color: #e91e63;
+    }
+    
+    .themeDark .text_color_pink {
+    color: #f48fb1;
+    }    
+    
+    .themeLight .text_color_gray {
+        color: #444;
+    }
+    
+    .themeDark .text_color_gray {
+        color: #bbb;
+    }    
+}

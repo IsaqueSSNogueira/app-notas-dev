@@ -1,0 +1,39 @@
+
+
+@media only screen and (max-width:480px){
+
+    .preferenceSwitch {
+        width:30px;
+        height: 12px;
+        background-color: #E1E0EF;
+        border-radius: 20px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        right: 22px;
+    }
+
+    .circuleSwitch {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: #F8F3F3;
+        position: absolute;
+        left:-5px;
+        transition: left 0.5s, background-color 0.2s;
+    }
+
+    /*theme*/
+
+    .themeDark.preferenceSwitch {
+        background-color: #9695a2;
+    }
+
+    /*active*/
+
+    .styleIsOn .circuleSwitch {
+        left:15px;
+        background-color: #ca2f2f;
+    }
+}

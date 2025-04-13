@@ -1,0 +1,56 @@
+
+@media only screen and (max-width:480px){ 
+
+    .profileContainer {
+        width:270px;
+        height:50px;
+        background-color:rgba(217, 217, 217, 0.2);
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        padding:0 12px;
+        position: relative;
+        border:rgba(0,0,0,0.1) 1px solid;
+    }
+
+    .profileImage {
+        width:35px;
+        height: 35px;
+        border: 1px solid black;
+        border-radius: 50%;
+        background-color: rgba(0, 0, 255, 0.1);
+        background-image: url('../../../../../../../assets/img/perfil-gunter.jpg');
+        background-size: cover;
+    }
+
+    .userInfo {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+
+    .userName {
+        margin-bottom: -2px;
+    }
+
+    .viewProfile {
+        font-size: 0.6rem;
+        color:gray;
+    }
+
+    .currentPlan {
+        width:65px;
+        height:25px;
+        border-radius: 10px;
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        background-color: rgba(163, 167, 255, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 9px;
+        position: absolute;
+        right:12px;
+        font-weight: 600;
+    }
+}

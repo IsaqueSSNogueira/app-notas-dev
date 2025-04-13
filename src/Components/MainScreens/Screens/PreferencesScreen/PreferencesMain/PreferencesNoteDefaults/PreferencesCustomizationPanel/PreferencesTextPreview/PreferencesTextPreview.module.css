@@ -1,0 +1,199 @@
+
+
+
+@media only screen and (max-width:480px){
+
+    .previewContainer {
+        width: 100%;
+        height:100px;
+        background-color: white;
+        position: absolute;
+        bottom:-120px;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        border-radius: 10px;
+        padding-bottom: 10px;
+    }
+
+    .titlePreview {
+        position: absolute;
+        top:10px;
+        left:10px;
+        font-weight: 500;
+        font-size: 0.8rem;
+        background-color: rgba(0,0,0,0.05);
+        padding:2px 10px;
+    }
+
+    .previewText {
+        text-align: center;
+        font-size: 16px;
+    }
+
+
+    /*font-family*/
+    .font_family_Roboto {
+        font-family: 'Roboto', serif !important;
+    }
+
+    
+    .font_family_Poppins {
+        font-family: 'Poppins', serif !important;
+    }
+
+    .font_family_Patrick_Hand {
+        font-family: "Patrick Hand", serif !important;
+        font-size: 1rem;
+    }
+
+    .font_family_Dancing_Script {
+        font-family: "Dancing Script", serif !important;
+        font-size: 1rem;
+    }
+
+    
+    .font_family_Raleway {
+        font-family: "Raleway", serif !important;
+    }
+
+    .font_family_Grechen_Fuemen {
+        font-family: "Grechen Fuemen", serif !important;
+    }
+
+    .font_family_Jacquard_12 {
+        font-family: "Jacquard 12", serif !important;
+    }
+
+    /*font-size*/
+    .font_size_10 {
+        font-size: 10px !important;
+    }
+
+    .font_size_12 {
+        font-size: 12px !important;
+    }
+
+    .font_size_14 {
+        font-size: 14px !important;
+    }
+
+    .font_size_16 {
+        font-size: 16px !important;
+    }
+
+    .font_size_18 {
+        font-size: 18px !important;
+    }
+
+    .font_size_20 {
+        font-size: 20px !important;
+    }
+
+    .font_size_22 {
+        font-size: 22px !important;
+    }
+
+    .font_size_24 {
+        font-size: 24px !important;
+    }
+
+    .font_size_28 {
+        font-size: 28px !important;
+    }
+
+
+    /*text-color*/
+    .themeLight .text_color_default {
+        color:black;
+    }
+
+    .themeDark .text_color_default {
+        color:white;
+    }
+
+    .themeLight .text_color_red {
+        color:red;
+    }
+
+    .themeDark .text_color_red {
+        color:rgb(253, 92, 92);
+    }
+
+    .themeLight .text_color_orange {
+        color: #ff9800;
+    }
+    
+    .themeDark .text_color_orange {
+        color: #ffb74d;
+    }
+
+    .themeLight .text_color_yellow {
+        color: #fbc02d;
+    }
+    
+    .themeDark .text_color_yellow {
+        color: #ffeb3b;
+    }
+    
+
+    .themeLight .text_color_blue {
+        color: #0066cc;
+    }
+    
+    .themeDark .text_color_blue {
+        color: #4d94ff;
+    }
+    
+    .themeLight .text_color_green {
+        color: #388e3c;
+    }
+    
+    .themeDark .text_color_green {
+        color: #66bb6a;
+    }
+    
+    .themeLight .text_color_purple {
+        color: #7e57c2;
+    }
+    
+    .themeDark .text_color_purple {
+        color: #b39ddb;
+    }
+
+    .themeLight .text_color_brown {
+        color: #795548;
+    }
+    
+    .themeDark .text_color_brown {
+        color: #a1887f;
+    }
+    
+    .themeLight .text_color_pink {
+        color: #e91e63;
+    }
+    
+    .themeDark .text_color_pink {
+    color: #f48fb1;
+    }    
+    
+    .themeLight .text_color_gray {
+        color: #444 !important;
+    }
+    
+    .themeDark .text_color_gray {
+        color: #bbb;
+    }    
+
+    /*themes*/
+    .themeLight {
+        background-color: white;
+        color:black;
+    }
+
+    .themeDark {
+        background-color: rgb(50, 50, 50);
+        color:rgb(233, 232, 232);
+    }
+    
+}

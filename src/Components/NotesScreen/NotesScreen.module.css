@@ -1,0 +1,12 @@
+
+
+
+@media only screen and (max-width:480px){ 
+
+    .notesScreen {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+}

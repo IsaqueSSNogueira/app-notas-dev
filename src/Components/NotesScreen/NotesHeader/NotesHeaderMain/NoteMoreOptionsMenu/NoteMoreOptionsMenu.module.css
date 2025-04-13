@@ -1,0 +1,51 @@
+
+
+
+@media only screen and (max-width:480px){ 
+
+    .moreOptionsMenuContainer{
+        width:180px;
+        height:auto;
+        background-color: white;
+        position: absolute;
+        top:100%;
+        right:7px;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 7px;
+        border-radius:10px;
+        z-index: 10;
+    }
+
+    .moreOptionsMenuContainer ul li {
+        width:100%;
+        padding:12px 8px;
+        font-size:0.7rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap:5px;
+    }
+
+    .moreOptionsMenuContainer ul li:active {
+        background-color:rgba(0,0,0,0.04);
+    }
+
+    .iconArea {
+        width:30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0.8;
+    }
+
+    /*themes*/
+    .themeLight {
+        background-color: white;
+        color:black;
+    }
+
+    .themeDark{
+        background-color: rgb(62, 62, 62);
+        color:rgb(233, 232, 232);
+    }
+
+}

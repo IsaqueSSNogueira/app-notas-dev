@@ -1,0 +1,43 @@
+
+
+@media only screen and (max-width:480px){ 
+
+    .colorButton {
+        width:30px;
+        height:30px;
+        border-radius: 50%;
+        flex-shrink: 0;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .colorButton:active::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0);
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.5);
+        animation: ripple 0.1s ease-out;
+    }
+    
+    .selectedColor {
+        position: absolute;
+    }
+
+    .defaultColorIcon {
+        fill: gray;
+    }
+    
+    @keyframes ripple {
+        to {
+            transform: translate(-50%, -50%) scale(1.5);
+        }
+    }
+}

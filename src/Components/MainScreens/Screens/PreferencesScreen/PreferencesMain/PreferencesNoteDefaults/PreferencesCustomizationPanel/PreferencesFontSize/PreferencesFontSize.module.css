@@ -1,0 +1,41 @@
+
+
+
+@media only screen and (max-width:480px) {
+
+    .containerPreference {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        gap:15px;
+        padding:20px 0;
+        align-items: center;
+    }
+
+    .titlePreference {
+        font-weight: 400;
+        font-size:0.9rem;
+    }
+
+    .containerPanel {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-self: center;
+        width:70%;
+    }
+
+    .button {
+        width:30px;
+        height: 30px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button:active {
+        background-color: rgb(227, 225, 225);
+    }
+
+}

@@ -1,0 +1,28 @@
+
+
+
+
+@media only screen and (max-width:480px){ 
+
+    .notesHeaderSecundary {
+        width:100%;
+        height: 40px;
+        background-color: #FDFFF4;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding:0 5px;
+    }
+
+    /*themes*/
+    .themeLight {
+        background-color: white;
+        color:black;
+    }
+
+    .themeDark {
+        background-color: rgb(62, 62, 62);
+        color:rgb(233, 232, 232);
+    }
+
+}

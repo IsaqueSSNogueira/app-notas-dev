@@ -1,0 +1,46 @@
+
+
+@media only screen and (max-width:480px){ 
+
+    .categoriesMenuContainer {
+        width:130px;
+        max-height: 0px;
+        background-color: rgb(252, 247, 247);
+        position: absolute;
+        top:100%;
+        border-radius: 0 0 10px 10px;
+        border-width: 0 1px 1px 1px;
+        border-color: rgba(0,0,0,0.2);
+        border-style: solid;
+    }
+
+
+    .categoriesMenuContainer .ul .li {
+        padding:8px 10px;
+        border-top: 1px solid rgba(0, 0, 0, 0.5);
+        display: flex;
+        align-items: center;
+        gap:10px;
+    }
+
+    .containerIcon {
+        height: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    .styleOpenMenu {
+        max-height: 150px;
+    }
+
+    /*theme*/ 
+    .themeLight {
+        background-color: rgb(252, 247, 247);
+        color:black;
+    }
+
+    .themeDark {
+        background-color: rgb(74, 74, 74);
+        color:rgb(233, 232, 232);
+    }
+}

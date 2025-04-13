@@ -1,0 +1,54 @@
+
+@media only screen and (max-width:480px){
+
+    .baseStyleNotesMain {
+        height: calc(100vh - 110px);
+        margin-top: 110px;
+    }
+
+    .fixedNotesContainer .h2, .mainNotesContainer .h2 {
+        font-size: 0.6rem;
+        font-weight: 500;
+        margin: 0 0 0 15px;
+    }
+
+    .notesContainer {
+        width: 100%;
+        padding:20px 10px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        overflow-y: auto;
+        row-gap:15px;
+    }
+
+    .createNotebutton {
+        position: fixed;
+        bottom:60px;
+        right:15px;
+        width:55px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        border:none;
+        background-image: linear-gradient(to bottom, #FFBFBF, #E89B9B);
+        font-size: 2rem;
+    }
+    
+    /*themes*/
+    .themeLight {
+        background-color: white;
+        color:black;
+    }
+
+    .themeDark {
+        background-color: rgb(62, 62, 62);
+        color:white;
+    }
+
+    .themeDark .createNotebutton {
+        background-image: linear-gradient(to bottom, #fca1a1, #e97070);
+    }
+}

@@ -1,0 +1,64 @@
+
+@media only screen and (max-width:480px){
+
+
+    .menuLinksContainer {
+        width: 100%;
+        position: relative;
+    }
+
+    .menuLinksContainer ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menuLinksContainer ul li {
+        display: flex;
+        align-items: center;
+        gap:25px;
+        padding:12px 20px; /*definir pro link em si*/
+        cursor: pointer;
+        font-size: 0.9rem;
+        font-weight: 500;
+        position: relative;
+        opacity: 0.8;
+    }
+
+    .menuLinksContainer ul li span {
+        color:rgba(0,0,0,0.9);
+        font-size: 0.75rem;
+    }
+
+    .icon {
+        width: 25px;
+        display: flex;
+        justify-content: center;
+        opacity:0.7;
+    }
+
+    .listDivider {
+        width: 100%;
+        display: inline-block;
+        height: 1px;
+        margin:14px 0 14px;
+        background-color: rgba(0,0,0,0.2);
+    }
+
+    .removeDefaultLinkProps {
+        color:black;
+        display: flex;
+        gap:12px;
+        width: 100%;
+    }
+
+
+    /*theme*/
+    .themeLight ul li .icon, .themeLight ul li span {
+        color:black;
+    }
+
+    .themeDark ul li .icon, .themeDark ul li span {
+        color:white;
+    }
+
+}

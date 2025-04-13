@@ -1,0 +1,52 @@
+
+@media only screen and (max-width:480px){
+
+    .buttonActionsContainer {
+        font-size: 0.85rem;
+        display: flex;
+        justify-content: space-between;
+        width:100%;
+        margin-top: 10px;
+        padding:14px 20px;
+    }
+
+    .closeButton {
+        background-color: transparent;
+        border: none;
+        color:#4F4F4F;
+        padding:2px 10px;
+        border-radius: 5px;
+    }
+
+    .closeButton:active {
+        background-color:rgb(246, 245, 245);
+    }
+
+    .saveButton {
+        background-color: #FAF684;
+        color:black;
+        border: none;
+        padding:2px 25px;
+        border-radius: 5px;
+    }
+
+    .saveButton:active {
+        background-color: #e6e393;
+    }
+
+
+    /*theme*/
+    .themeDark .closeButton {
+        color:white;
+    }
+
+    .themeDark .saveButton {
+        color:rgb(255, 255, 255);
+        background-color: rgb(248, 139, 80);
+    }
+
+    .themeDark .saveButton:active {
+        background-color: #FF926B;
+    }
+
+}
